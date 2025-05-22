@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: neuroverse_chatbot/backend
+        working-directory: neuroverse_chatbot/neurvoverse_chatbot/backend
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
