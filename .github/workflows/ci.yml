@@ -20,10 +20,15 @@ jobs:
           flutter-version: '3.19.0'
 
       - name: Get dependencies
-        run: flutter pub get
+        run: |
+          cd neuroverse_chatbot/neuroverse_chatbot
+          flutter pub get
 
       - name: Analyze Flutter code
-        run: flutter analyze
+        run: |
+          cd neuroverse_chatbot/neuroverse_chatbot
+          flutter analyze
+
   backend:
     name: Python Syntax Check
     runs-on: ubuntu-latest
@@ -46,5 +51,3 @@ jobs:
         run: |
           cd neuroverse_chatbot/backend
           python -m compileall .
-
-  
