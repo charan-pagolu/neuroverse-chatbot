@@ -46,4 +46,8 @@ jobs:
           pip install -r requirements.txt
 
       - name: Compile Python files
-        run: python -m py_compile app.py tone_prompts.py
+        run: python -m complieall .
+
+      - name: List current directory 
+        run: ls -la
+
