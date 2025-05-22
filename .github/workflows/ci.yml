@@ -19,6 +19,9 @@ jobs:
         with:
           flutter-version: '3.7.2'
 
+      - name: Clear Flutter cache
+        run: flutter clean
+
       - name: Get dependencies
         run: |
           cd neuroverse_chatbot/neuroverse_chatbot
