@@ -151,9 +151,6 @@ CI config file:
 
 ---
 
-## Screenshots
-
-> Coming soon: Screens showing mood selection, chatbot response flow, and recommendations.
 
 ---
 
