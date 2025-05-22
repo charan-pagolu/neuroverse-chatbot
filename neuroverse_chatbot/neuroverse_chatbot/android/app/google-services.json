@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "926248188694",
+    "project_id": "neuroverse-app-8e744",
+    "storage_bucket": "neuroverse-app-8e744.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926248188694:android:99faca4c0ce1abcad56e37",
+        "android_client_info": {
+          "package_name": "com.example.neuroverse_chatbot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqDm8guqTDvf4tnfX8vhgcIlRsSA-DJQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
