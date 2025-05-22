@@ -143,9 +143,8 @@ CI config file:
 
 ## Future Enhancements
 
-* Add journaling and visual mood trend charts.
 * Include meditation and breathing exercises.
-* Implement user login and persistent chat history.
+* Implement persistent chat history.
 * Add anonymous support group feature.
 * Integrate voice-based interaction.
 
