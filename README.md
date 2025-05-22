@@ -150,9 +150,6 @@ CI config file:
 
 ---
 
-
----
-
 ## Credits
 
 Built by **Charan Pagolu**
