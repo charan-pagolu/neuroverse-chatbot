@@ -24,13 +24,9 @@ jobs:
 
       - name: Analyze Flutter code
         run: flutter analyze
-
   backend:
     name: Python Syntax Check
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: neuroverse_chatbot/neurvoverse_chatbot/backend
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -42,12 +38,13 @@ jobs:
 
       - name: Install dependencies
         run: |
+          cd neuroverse_chatbot/backend
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
       - name: Compile Python files
-        run: python -m complieall .
+        run: |
+          cd neuroverse_chatbot/backend
+          python -m compileall .
 
-      - name: List current directory 
-        run: ls -la
-
+  
